@@ -20,32 +20,32 @@
     </section>
     <section class="todo">
       <h3 class="title todo__title">Todo</h3>
-      <ul class="todo__incomplete">
+      <ul class="todo__incomplete" id="incomplete-tasks">
         <li class="todo__item">
           <input type="checkbox" class="checkbox todo__check">
           <label class="label todo__label">Pay Bills</label>
           <input type="text" class="todo__text">
-          <button class="button todo__edit">Edit</button>
-          <button class="todo__remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
+          <button class="button todo__edit button_edit">Edit</button>
+          <button class="button button_remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
         </li>
         <li class="todo__item todo__item_edit">
           <input type="checkbox" class="checkbox todo__check">
-          <label class="label todo__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="todo__text">
-          <button class="button todo__edit">Save</button>
-          <button class="todo__remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
+          <label class="label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="todo__text todo__text_edit">
+          <button class="button todo__edit button_edit">Save</button>
+          <button class="button button_remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
         </li>
       </ul>
     </section>
     <section class="completed">
-      <h3 class="title completed__title"></h3>Completed</h3>
+      <h3 class="title completed__title">Completed</h3>
       <ul id="completed-tasks" class="completed__tasks">
         <li class="completed__item">
           <input type="checkbox" class="checkbox completed__check" checked>
           <label class="label checked__label">See the Doctor</label>
-          <input type="text" class="completed__text">
-          <button class="button completed__edit">Edit</button>
-          <button class="completed__remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
+          <input type="text" class="completed__text todo__text">
+          <button class="button completed__edit button_edit">Edit</button>
+          <button class="button button_remove"><img src="./remove.svg" alt="remove-icon" class="icon-remove"></button>
         </li>
       </ul>
     </section>
