@@ -36,7 +36,8 @@
 
 /* Section Add-task Style */
 
-.add-task__task, .label {
+.add-task__task, 
+.label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -46,16 +47,19 @@
   display: flex;
 }
 
-.todo__incomplete, .completed__tasks {
+.todo__incomplete, 
+.completed__tasks {
   margin: 0;
   padding: 0px;
 }
 
-.todo__item, .completed__item {
+.todo__item, 
+.completed__item {
   list-style: none;
 }
 
-.todo__text, .completed__text {
+.todo__text, 
+.completed__text {
   display: none;
   outline: none;
 }
@@ -88,7 +92,9 @@
   margin: 0 0 20px;
 }
 
-.add-task__task, .todo__text, .completed__text {
+.add-task__task, 
+.todo__text, 
+.completed__text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -103,13 +109,16 @@
   width: 226px;
 }
 
-.add-task__task:focus, .todo__text:focus, .completed__text:focus {
+.add-task__task:focus, 
+.todo__text:focus, 
+.completed__text:focus {
   color: #333;
 }
 
 /* Task list */
 
-.todo__item, .completed__item {
+.todo__item, 
+.completed__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -146,7 +155,8 @@
   transform: rotateZ(0);
 }
 
-.todo__remove, .completed__remove {
+.todo__remove, 
+.completed__remove {
   outline: none;
 }
 
