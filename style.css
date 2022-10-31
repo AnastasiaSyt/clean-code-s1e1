@@ -23,7 +23,7 @@
 }
 
 .matrix__link {
-  font-family: fantasy, cursive;
+  font-family: "Fantasy", cursive;
 }
 
 @media (max-width:768px) {
@@ -49,7 +49,6 @@
 .todo__incomplete, .completed__tasks {
   margin: 0;
   padding: 0px;
-  list-style-type: disc;
 }
 
 .todo__item, .completed__item {
